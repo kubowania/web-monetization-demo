@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;600;700&display=swap');
+
+* {
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fadad1;
+    width: 100%;
+}
+
+header .title-info {
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header .info-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .info-container #monetization-info {
+    color: #e7e7e7;
+    padding: 10px;
+    border-radius: 10px;
+    width: 140px;
+    margin: 20px;
+    text-align: center;
+}
+
+.not-monetized {
+    background-color: #f14261;
+}
+
+.monetized {
+    background-color: #4c8456;
+}
+
+.logo-container {
+    padding: 0 20px;
+}
+
+hr {
+    margin-bottom: 40px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+article {
+    border-radius:10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 10px;
+    color: #717070;
+}
+
+article img {
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+#exclusive {
+    background-color: #ee899b;
+}
+
+
+
